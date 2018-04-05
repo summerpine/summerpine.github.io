@@ -1,122 +1,69 @@
+<!--
+1. 앞서 제출한 과제 03_02의 1번 (github.io 용 개인포트폴리오)에 CSS를 적용하시오.
+- 단, 별도의 css 파일을 생성하여 link tag로 연결하시오.
+-->
+
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>summerpine Home</title>
-    
-    <style>
-      header
-      {
-        clear: left;
-        float: center;        
-        width: 99.7%;
-        height: 120px;
-        border: 1px solid grey;
-        text-align: center;
-        border-collapse: collapse;       
-        background-color: aquamarine;;
-        
-      }
-      
-      nav_upper
-      {
-        clear: left;
-        float: left;
-        width: 99.7%;
-        height: 40px;
-        border: 1px solid grey;
-        border-collapse: collapse;
-        background-color: rgba(133, 216, 216, 0.733);
-        text-align: right;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        
-        
-      }
-      
-      
-      nav_right
-      {
-        float: right;
-        width: 20%;
-        height: 800px;
-        border: 1px solid grey;
-        border-collapse: collapse;
-        background-color: azure;
-      }
-               
-      aside
-      {
-        float: left;
-        height: 800px;
-        width: 79.4%;
-        border: 1px solid grey;
-        border-collapse: collapse;
-        background-color: azure;
-        border-spacing: 20px;
-      }
+    <title>12124899_이진호</title>
 
-      article
-      {
-        padding: 10px;
-        
-      }
-      
-      footer
-      {
-        float: left;
-        width: 99.7%;
-        height: 80px;
-        border: 1px solid grey;
-        border-collapse: collapse;
-        text-align: center;
-      }
-      
-      
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <br>
-        <h1>summerpine's GitHub.io</h1>  
-      </header>
-      <nav_upper>
-        <br>
-        <a href="#">Profile</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        
-      </nav_upper>
-      <nav_right>
-        <ul>
-          <li>Web Programming</li>
-          <li>Game Programming</li>
-          <li>C-based Language
-            <ul>
-              <li>C</li>
-              <li>C++</li>
-              <li>C#</li>
-            </ul>
-          </li>
-          <li>Java Programming</li>
-          <li> Database Management System</li>
+    <link rel="stylesheet" type="text/css" href="https://github.com/summerpine/summerpine.github.io/blob/master/stylesheet.css">
 
-        </ul>
-      </nav_right>
-      
-      <aside>
-        <article>
-          Student of
-          <a href="https://www.inha.ac.kr">Inha University</a>, Incheon, Korea, Republic of.<br>
-          Major at
-          <a href="htpps://www.cse.inha.ac.kr">Computer Science Engineering College</a><br>
-        </article>
-      </aside>
-      <footer>
-        <br> e-mail: <a href="mailto:summerpine92@gmail.com">summerpine92@gmail.com</a> or <a href="mailto:12124899@inha.ac.kr">12124899@inha.ac.kr</a>
-        
-        <br> Copyright<small>&copy;</small> Lee Jin-ho
-      </footer>
+
+</head>
+
+<body>
     
+    <div class="main">
+        <header class="outer_header"><h2><br>&nbsp;&nbsp;&nbsp;&nbsp;summerpine's GitHub.io<br><br></h2></header>
+        <nav class="outer_nav"><img src="https://www.inha.ac.kr/mbshome/mbs/kr/images/contents/logo_02.png" id="inha_logo">
+            <br>Student of
+                <a href="inha.ac.kr">Inha University</a>, Incheon, Korea, Republic of.
+                <br><br> Major at
+                <a href="cse.inha.ac.kr">Computer Science Engineering College</a>
+                <br>
+            
+            <br> e-mail:
+            <a href="mailto:summerpine92@gmail.com">summerpine92@gmail.com</a> <br>
+            <a href="mailto:12124899@inha.ac.kr">12124899@inha.ac.kr</a>
+        </nav>
+        <div class="sub">
+            <section>
+    
+  
+                <article class="inner_article">
+                    summerpine의 github입니다.
+                </article>
+ 
+            </section>
+        </div>
+        <aside class="outer_aside">
+                <ul>
+                        <li>Web Programming</li>
+                        <li>Game Programming</li>
+                        <li>C-based Language
+                            <ul>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>C#</li>
+                            </ul>
+                        </li>
+                        <li>Java Programming</li>
+                        <li> Database Management System</li>
+        
+                    </ul>
+
+        </aside>
+        <footer class="outer_footer">
+                
+                <br> Copyright
+                <small>&copy;</small> Lee Jin-ho<br><br>
+        </footer>
     </div>
-  </body>
+    
+</body>
+
 </html>
